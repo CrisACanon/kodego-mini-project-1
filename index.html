@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="mycss.css" />
+  </head>
+  <style></style>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#products"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <form class="btn-user ml-3 p-3">
+            <button class="btn btn-info btn-sm">
+              <a href="./login.html"></a>Login
+            </button>
+            <button class="btn btn-danger btn-sm">
+              <a href="./signup.html"></a>SignUp
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section id="promo">
+      <div id="carousel-promo" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Promos/AMD Promo.PNG" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Promos/PC Illustration.PNG"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Promos/Rakk.PNG"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Promos/prebuilt Intel.PNG"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Promos/laptop.PNG"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-promo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-promo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="about" class="p-5">
+      <div class="container">
+        <div class="row">
+          <p>
+            CAÑON IT SOLUTION is a computer retail business founded on the
+            values of convenience, accessibility, and excellent customer
+            service. Believe it or not, this local technology retailer had
+            pretty humble beginnings – when Cris Cañon the founder who were
+            passionate about tech hunted down secondhand PCs online to resell at
+            decent rates. CAÑON IT Solution officially got its name when opened
+            our first store in Koronadal City in September 2021. Building a
+            brand that promises reliable services and quality products.
+            Eventually, we shifted to selling brand new products at accessible
+            prices.
+          </p>
+          <p class="mb-3 mb-md-0">
+            Today, as we serve you in-store, our dedication to growth also
+            extends to each and every customer. We strive to provide solutions,
+            reliable services, and affordable but quality technologies that will
+            enhance the lives of our customers and community. As we move to
+            greater heights, giving you the best customer experience is still
+            our number one goal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <div class="card h-100">
+              <img
+                src="./Products/monitor.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Factory Wholesale 21.5"~23.8 " Business Gaming Monitor
+                </h5>
+                <p class="card-text text-danger">P8,500.00</p>
+                <button class="btn btn-primary">BUY ME</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="card h-100">
+              <img src="./Products/laptop.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">
+                  14 inch Win 11 brand new notebook N3350 2.4Ghz DDR3 16GB RAM
+                  and HD screen laptop computer
+                </h5>
+                <p class="d-flex text-danger">P59,000.00</p>
+                <button class="btn btn-primary">BUY ME</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="card h-100">
+              <img src="./Products/ram.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">
+                  High Speed Gaming Memory Ram Desktop DDR4 16gb 3200mhz For PC
+                </h5>
+                <p class="card-text text-danger">P7,500.00</p>
+                <button class="btn btn-primary">BUY ME</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row py-5 g-3">
+          <div class="col-md-6 first_col">
+            <h1 class="text-center">Contact Us</h1>
+            <form class="p-3 mt-5">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Enter your name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email ID</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Enter any message</label
+                >
+                <textarea
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <button class="btn btn-primary">Send Now</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <img src="./logo.png" class="img-fluid" />
+          </div>
+        </div>
+        <div class="last_row">
+          <div class="row row-cols-1 row-cols-md-3 p-3 text-dark">
+            <div class="col">
+              <h1 class="text-danger">CALL US</h1>
+              <p>
+                Globe - +639123456789 <br />
+                Smart - +639123456789 <br />
+                Landline -(082)552-6526
+              </p>
+            </div>
+            <div class="col">
+              <h1 class="text-danger">LOCATION</h1>
+              <p>
+                National Highway, <br />Barangay San Roque, <br />
+                Koronadal City, 9506 <br />South Cotabato
+              </p>
+            </div>
+            <div class="col">
+              <h1 class="text-danger">EMAIL</h1>
+              <p>
+                1234567890@gmail.com <br />
+                1234567890@yahoomail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
