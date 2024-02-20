@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": " ASUS MONITOR",
+    "price": 6500,
+    "image": "image/1.png"
+  },
+  {
+    "id": 2,
+    "name": " ASUS MONITOR",
+    "price": 5500,
+    "image": "image/2.png"
+  },
+  {
+    "id": 3,
+    "name": " ROG TRIX LAPTOP",
+    "price": 6600,
+    "image": "image/3.png"
+  },
+  {
+    "id": 4,
+    "name": " ACER PREDATOR GAMING LAPTOP",
+    "price": 5900,
+    "image": "image/4.png"
+  },
+  {
+    "id": 5,
+    "name": " LENOVO LAPTOP",
+    "price": 65000,
+    "image": "image/5.png"
+  },
+  {
+    "id": 6,
+    "name": " ASUS VIVOBOOK",
+    "price": 45500,
+    "image": "image/6.png"
+  },
+  {
+    "id": 7,
+    "name": " ASUS LAPTOP",
+    "price": 59000,
+    "image": "image/7.png"
+  },
+  {
+    "id": 8,
+    "name": "MSI LAPTOP",
+    "price": 56000,
+    "image": "image/8.png"
+  },
+  {
+    "id": 9,
+    "name": "ASUS DESKTOP",
+    "price": 65000,
+    "image": "image/9.png"
+  }
+]

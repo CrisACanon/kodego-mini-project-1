@@ -1,5 +1,10 @@
 body {
-  background-color: #f8f9fa;
+  background-color: #fdfffc;
+}
+
+nav .logbtn {
+  margin: auto;
+  padding: 10px;
 }
 
 #products .card img {
@@ -47,11 +52,12 @@ body {
 
 #contact img {
   top: 50px;
-  height: 600px;
+  height: 500px;
   width: 100%;
   object-fit: fill;
+  margin-bottom: 1rem;
 }
-.first_col {
+#contact .first_col {
   background-color: white;
   height: 550px;
   position: relative;
@@ -61,20 +67,21 @@ body {
   border-radius: 20px;
   border: ridge white;
 }
-.img-fluid {
+#contact .img-fluid {
   border-radius: 20px;
   border: ridge white;
 }
-.last_row {
+#contact .last_row {
   width: 60% !important;
   position: relative !important;
   left: 350px;
-  top: 50px;
-  height: 300px;
+  top: 0;
+  height: 180px;
   padding-bottom: 100px !important;
   background-color: #c1b688;
   border-radius: 20px;
   border: ridge white;
+  margin-bottom: 1rem;
 }
 
 #contact .btn-primary {
@@ -82,10 +89,10 @@ body {
   border: #c1b688;
 }
 #contact .btn-primary:hover {
-  background-color: rgb(126, 0, 0);
+  background-color: rgb(99, 32, 32);
 }
 
-.form-control {
+#contact .form-control {
   height: 52px;
   background-color: #fff;
   font-size: 14px;
@@ -94,16 +101,16 @@ body {
   border: 1px solid #555;
 }
 
-.form-control[type="text"]:focus {
+#contact .form-control[type="text"]:focus {
   border: 2px solid#555;
 }
 
 @media screen and (max-width: 600px) {
-  .first_col {
+  #contact .first_col {
     position: initial;
     left: 0;
   }
-  .last_row {
+  #contact .last_row {
     left: 0 !important;
     width: 100% !important;
     height: 480px !important;
@@ -121,6 +128,7 @@ body {
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   margin-top: 150px;
+  margin-bottom: 30px;
 }
 
 #Login .btn-primary {
@@ -238,16 +246,11 @@ body {
   }
 }
 
-#brands {
-  padding: 2rem;
-}
-
 #brands .img-container {
-  overflow: hidden;
-
   border-radius: 8px;
   height: 200px;
   padding: 40px;
+  overflow: hidden;
 }
 
 #brands .img-container .image {
@@ -261,4 +264,136 @@ body {
 #brands .img-container:hover {
   transform: scale(1.1);
   transition: 0.5s ease;
+}
+
+#laptop .card {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#laptop .card .card-img-top {
+  border: none;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 17px;
+  object-fit: fill;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+#laptop .btn-primary {
+  background: #1e2323;
+  border: #1e2323;
+}
+#laptop .btn-danger {
+  background: #1e2323;
+  border: #1e2323;
+}
+#laptop .btn-danger:hover {
+  background: #eecc21;
+  border: #eecc21;
+}
+#laptop .btn-primary:hover {
+  background: #eecc21;
+  border: #eecc21;
+}
+
+#laptop .card:hover .card-img-top {
+  position: relative;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+#laptop .card-body p {
+  font-size: 10px;
+  font-weight: bold;
+}
+#prod-discription {
+  background: #fdfffc;
+}
+#prod-discription .card {
+  position: relative;
+  width: 60%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+
+  background: #fdfffc;
+}
+#laptopside-card .container {
+  margin-left: 75%;
+  margin-top: 30px;
+  position: relative;
+  margin-right: 10px;
+}
+
+#prod-discription .card {
+  height: 600px;
+  width: 80%;
+  padding: 5px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  margin-top: 10%;
+  background: #fdfffc;
+}
+
+#prod-discription img {
+  padding: 12%;
+  border: none;
+  width: 400px;
+  object-fit: fill;
+  border-radius: 5px;
+}
+#prod-discription i {
+  margin-left: 5%;
+  font-size: 15px;
+  font-style: normal;
+  color: black;
+}
+#prod-discription .btn-warning {
+  background: #eecc21;
+  border: none;
+}
+#prod-discription .btn-warning:hover {
+  background: #333232;
+  border: none;
+}
+#prod-discription .btn-dark {
+  background: #333232;
+  border: none;
+}
+#prod-discription .btn-dark:hover {
+  background: #eecc21;
+  border: none;
+}
+
+#reviews .card {
+  width: 80%;
+  padding: 10px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  margin-top: 5%;
+  background: #fdfffc;
+}
+
+#reviews ul li {
+  font-size: 14px;
+}
+
+#prod-discription .prod-title {
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+#cancellPolicy .container .break {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+#cancellPolicy .title {
+  margin-left: 9%;
+  margin-top: 35px;
 }
