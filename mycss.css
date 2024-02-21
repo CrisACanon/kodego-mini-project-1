@@ -2,11 +2,6 @@ body {
   background-color: #fdfffc;
 }
 
-nav .logbtn {
-  margin: auto;
-  padding: 10px;
-}
-
 #products .card img {
   display: flex;
   align-items: center;
